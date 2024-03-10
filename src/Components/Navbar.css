@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+    backdrop-filter: blur(1px);
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100px;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    position: relative; 
+    z-index: 9999; 
+  }
+  
+  .container li {
+    list-style: none;
+    display: inline;
+  }
+  
+  .container li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    color: #f2f2f2;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: all .3s ease-in;
+    font-family: "Play", sans-serif;
+  }
+  
+  .container li a:hover {
+    background-color: #DDFFD9;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: WHITE;
+  }
+  
